@@ -1,0 +1,242 @@
+body {
+    background-color: #1D3E53;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-family: "Gill Sans", sans-serif;
+    
+}
+
+
+
+.button {
+    height: 1in;
+    width: 3in;
+    background-color: #04AA6D;
+    border: 3px solid grey;
+
+}
+
+
+.dropbtn {
+    background-color: #476D7C;
+    padding: 0px;
+    font-size: 16px;
+    border: none;
+    margin-top: 2px;
+    font-style: bold;
+    font-family: Georgia (serif);
+}
+
+.dropdown {
+    position: relative;
+    float:left;
+    height: .5in;
+    width: 12.12%;
+    background-color: #476D7C;
+    margin: 1px;
+    border: 3px solid grey;
+    font-family: fantasy;
+
+
+
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #afd1e6;
+    min-width: 2in;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+}
+
+.dropdown-content a:hover {
+    background-color: #77ABB7;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #476D7C;
+    height: .5in;
+    width: 100%;
+    border: 3px solid grey;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.Events {
+    border: 3px solid grey;
+    width: 1410px;
+    height: 100px;
+    
+
+
+}
+
+
+.hotItem {
+    width: 348px;
+    height: 250px;
+    border: 3px solid #1D3E53;
+    position: absolute;
+    margin-left: 1px;
+    border: 3px solid grey;
+    top: 475px;
+    float: left;
+   
+    
+
+
+
+}
+
+.hotItem2 {
+    width: 348px;
+    height: 250px;
+    position: absolute;
+    margin-left: 0in;
+    border: 3px solid grey;
+    left: 504px;
+    top: 475px;
+
+
+
+}
+
+.hotItem3 {
+    width: 348px;
+    height: 250px;
+    position: absolute;
+    margin-left: 0in;
+    border: 3px solid grey;
+    left: 857px;
+    top: 475px;
+
+
+}
+
+.hotItem4 {
+    width: 348px;
+    height: 250px;
+    position: absolute;
+    margin-left: 0in;
+    border: 3px solid grey;
+    left: 1211px;
+    top: 475px;
+}
+.hotItem5 {
+    width: 348px;
+    height: 250px;
+    border: 3px solid #1D3E53;
+    position: absolute;
+    margin-left: 1px;
+    border: 3px solid grey;
+    top: 731px;
+    float: left;
+}
+.hotItem6 {
+    width: 348px;
+    height: 250px;
+    border: 3px solid #1D3E53;
+    position: absolute;
+    border: 3px solid grey;
+    top: 731px;
+    left: 504px;
+
+}
+.hotItem7 {
+    width: 348px;
+    height: 250px;
+    border: 3px solid #1D3E53;
+    position: absolute;
+    border: 3px solid grey;
+    top: 731px;
+    left: 857px;
+}
+.hotItem8 {
+    width: 348px;
+    height: 250px;
+    border: 3px solid #1D3E53;
+    position: absolute;
+    border: 3px solid grey;
+    top: 731px;
+    left: 1211px;
+}
+
+.input {
+    float: right;
+    height: 30px;
+    border-radius: 8px;
+
+}
+
+/*.Logo .topImage {
+
+    float: left;
+    
+}*/
+
+.Logo {
+    width: 250px;
+    height: 250px;
+    border: 3px solid grey;
+    float: left;
+
+}
+
+.Login {
+    float: right;
+
+}
+
+.Search {
+    height: 30px;
+
+
+}
+
+.topImage {
+    position: relative;
+    display: inline-block;
+    border: 3px solid grey;
+    height: 250px;
+    width: 1155px;
+  
+
+
+}
+
+.topcenter {
+    position: absolute;
+    top: 0px;
+    left: 16px;
+    margin-right:5px;
+
+}
+
+.topBlock {
+    float: right;
+    width: 33.33%;
+    padding: 5px;
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+
+
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
